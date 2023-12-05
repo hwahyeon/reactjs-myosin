@@ -1,0 +1,29 @@
+header {
+  padding: 10px 20px;
+
+  nav {
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0;
+      padding: 0;
+
+      li {
+        margin: 0 15px;
+
+        a {
+          color: #ab31ad; // 링크 색상
+          text-decoration: none;
+          font-size: 1.2em;
+          transition: color 0.3s ease;
+
+          &:hover {
+            color: #72ff53; // 링크 호버 색상
+          }
+        }
+      }
+    }
+  }
+}
